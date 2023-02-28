@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/SpawNKZ/codewars/opposite_number"
+	kata "github.com/SpawNKZ/codewars/return_negative"
 )
 
 func main() {
-	fmt.Println(opposite_number.Opposite(-34))
+	fmt.Println(kata.MakeNegative(1))
 }
